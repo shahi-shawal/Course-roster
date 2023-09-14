@@ -15,9 +15,11 @@ const Datas = () => {
     return (
         <div>
         <h1>Course: {courses.length}</h1>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
         {
             courses.map((course,idx)=><Data key={idx} course={course}></Data>)
         }
+        </div>
         </div>
     );
 };
