@@ -1,12 +1,14 @@
 
 import './App.css'
+import Datas from './Component/Datas/Datas'
+import Header from './Component/Header/Header'
 
 function App() {
 
   return (
     <>
-      <h1>Course</h1>
-     
+      <Header></Header>
+      <Datas></Datas>
     </>
   )
 }
