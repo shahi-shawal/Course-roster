@@ -2,9 +2,9 @@
     "courses": [
        {
           "id": "1",
-          "img": "https://i.ibb.co/Fz6B4Jn/course-Thumbnail-cdaf4694.jpg",
-          "course_name": "Introduction to Web Development",
-          "course_description": "Learn the basics of web development, including HTML, CSS, and JavaScript.",
+          "img": "https://i.ibb.co/YXCz0Dk/ferenc-almasi-e-Ypc-LDXHVb0-unsplash.jpg",
+          "course_name": "Web Development",
+          "course_description": "Learn web development, including HTML,CSS, and JavaScript.",
           "price": 49.99,
           "credit": 5
        },
@@ -26,7 +26,7 @@
        },
        {
           "id": "4",
-          "img": "course4.jpg",
+          "img": "https://i.ibb.co/2yZDztr/olaf-val-UTk9c-Xz-YWAg-unsplash.jpg",
           "course_name": "Mobile App Development",
           "course_description": "Build mobile apps for iOS and Android platforms.",
           "price": 59.99,
@@ -34,7 +34,7 @@
        },
        {
           "id": "5",
-          "img": "course5.jpg",
+          "img": "https://i.ibb.co/Wnvs2mV/jason-goodman-vbxy-Fxlgpj-M-unsplash.jpg",
           "course_name": "Digital Marketing Strategy",
           "course_description": "Learn digital marketing strategies to grow your online presence.",
           "price": 54.99,
@@ -42,7 +42,7 @@
        },
        {
           "id": "6",
-          "img": "course6.jpg",
+          "img": "https://i.ibb.co/KLLzqnq/unseen-studio-s9-CC2-SKy-SJM-unsplash.jpg",
           "course_name": "Business Finance Essentials",
           "course_description": "Understand financial principles and manage business finances effectively.",
           "price": 69.99,
@@ -50,7 +50,7 @@
        },
        {
           "id": "7",
-          "img": "course7.jpg",
+          "img": "https://i.ibb.co/Y2q6Xgg/possessed-photography-YKW0-Jj-P7rl-U-unsplash.jpg",
           "course_name": "Artificial Intelligence Fundamentals",
           "course_description": "Dive into the world of AI and machine learning.",
           "price": 79.99,
@@ -58,7 +58,7 @@
        },
        {
           "id": "8",
-          "img": "course8.jpg",
+          "img": "https://i.ibb.co/FY79mp9/conor-luddy-IVa-Kks-EZm-ZA-unsplash.jpg",
           "course_name": "Photography Basics",
           "course_description": "Learn photography techniques and capture amazing photos.",
           "price": 49.99,
@@ -75,3 +75,5 @@
     ]
  }
  
+
+
