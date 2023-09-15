@@ -1,11 +1,11 @@
 
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 import { useEffect } from "react";
 import { useState } from "react";
 import Data from "../Data/Data";
 
-const Datas = () => {
+const Datas = ({handelSelect}) => {
     const [courses,setCourses]=useState([]);
     useEffect(()=>{
       fetch("Course.json")
@@ -13,19 +13,19 @@ const Datas = () => {
       .then(data=> setCourses(data.courses))
     },[])
     return (
-        <div>
-        <h1>Course: {courses.length}</h1>
+        <div className='w-3/4 mt-6'>
+        {/* <h1>Course: {courses.length}</h1> */}
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
         {
-            courses.map((course,idx)=><Data key={idx} course={course}></Data>)
+            courses.map((course,idx)=><Data key={idx} course={course} handelSelect={handelSelect}></Data>)
         }
         </div>
         </div>
     );
 };
 
-// Datas.propTypes = {
-    
-// };
+Datas.propTypes = {
+    handelSelect:PropTypes.func.isRequired
+};
 
 export default Datas;

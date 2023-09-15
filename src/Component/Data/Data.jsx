@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 
-const Data = ({ course }) => {
+const Data = ({ course,handelSelect }) => {
   const { img, course_name, course_description, price, credit } = course;
   return (
     <div>
-      <div className="p-4 ">
+      <div className="p-4">
         <div className="">
-          <div className="card bg-base-100 shadow-xl">
+          <div className="card bg-base-100 shadow-xl h-[402px] ">
             <figure className="px-5 pt-5">
               <img src={img} alt="Shoes" className="rounded-xl" />
             </figure>
@@ -18,7 +18,7 @@ const Data = ({ course }) => {
                 <p className="text-xl font-semibold"> Credit: {credit} hr</p>
               </div>
 
-              <button className="btn btn-primary">Select</button>
+              <button className="btn hover:bg-[#2F80ED] bg-[#2F80ED] text-white  font-semibold" onClick={()=>handelSelect(course)}>Select</button>
             </div>
           </div>
         </div>
@@ -29,6 +29,7 @@ const Data = ({ course }) => {
 
 Data.propTypes = {
   course: PropTypes.object.isRequired,
+  handelSelect:PropTypes.func.isRequired
 };
 
 export default Data;

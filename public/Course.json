@@ -30,7 +30,7 @@
           "course_name": "Mobile App Development",
           "course_description": "Build mobile apps for iOS and Android platforms.",
           "price": 59.99,
-          "credit": 4
+          "credit": 3
        },
        {
           "id": "5",
@@ -66,7 +66,7 @@
        },
        {
           "id": "9",
-          "img": "course9.jpg",
+          "img": "https://i.ibb.co/BZbYqmH/artem-bryzgalov-r2-CAj-GQ0g-SI-unsplash.jpg",
           "course_name": "Cybersecurity Fundamentals",
           "course_description": "Protect computer systems and data from cyber threats.",
           "price": 69.99,
