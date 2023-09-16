@@ -11,7 +11,6 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [cardSelect, setCard]= useState([])
   const handelSelect =(select)=>{
-        // console.log("click",select);
        const findItem= cardSelect.find((carded)=> carded.id ===select.id)
         if (findItem) {
          return  toast.info("add only once")

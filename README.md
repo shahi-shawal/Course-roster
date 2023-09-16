@@ -1,8 +1,10 @@
-# React + Vite
+# Add at least 3 Project features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Three features of this project are 
+1. If students exceed 20 credits they will see an error
+2. The student will see how much his credit has been spent
+3. Students can view the total price for course selection
 
-Currently, two official plugins are available:
+# Discuss how you managed the state in your assignment project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+First think about the use of state,  Declar a state in Component then declar a initial value of state, when Use a api i use a UseEffect hook and declar a state function in the hook.

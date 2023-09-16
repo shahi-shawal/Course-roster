@@ -7,6 +7,7 @@ const Cart = ({cardSelect}) => {
   let TotalPrice=0
   let TotalCredit=0
   let remaining=0
+  
   cardSelect.forEach(element => {
     const price= element.price
     const hour = element.credit
@@ -26,7 +27,6 @@ const Cart = ({cardSelect}) => {
   return (
     
     <div className="w-1/4 bg-white rounded-md shadow-xl mt-8 mr-2 h-[600px]">
-     {/* <h1>Cart:{cardSelect.length}</h1> */}
 
      <h1 className='p-2 text-xl font-bold text-[#2F80ED]'>Credit Hour Remaining {remaining} hr</h1>
        <hr className="bg-white mt-4 h-5"></hr>
@@ -40,7 +40,7 @@ const Cart = ({cardSelect}) => {
        <hr className="mt-20"></hr>
      <h1 className='p-2 text-lg text-gray-600 font-bold'>Total Credit Hour : {TotalCredit}</h1>
      <hr />
-     <h1 className='p-2 text-lg text-gray-600 font-bold'>Total Price: {TotalPrice.toFixed(2)} USD</h1>
+     <h1 className='p-2 text-lg text-gray-600 font-bold'>Total Price: {TotalPrice} USD</h1>
 
     </div>
   );
