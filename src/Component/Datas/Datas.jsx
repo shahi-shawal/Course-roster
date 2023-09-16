@@ -13,10 +13,10 @@ const Datas = ({handelSelect}) => {
       .then(data=> setCourses(data.courses))
     },[])
     return (
-        <div className='w-3/4 mt-6'>
+        <div className='w:2/4 lg:w-3/4 mt-6'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
         {
-            courses.map((course,)=><Data key={course.id} course={course} handelSelect={handelSelect}></Data>)
+            courses.map((course)=><Data key={course.id} course={course} handelSelect={handelSelect}></Data>)
         }
         </div>
 

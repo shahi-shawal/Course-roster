@@ -15,7 +15,7 @@ const Cart = ({cardSelect,remaning,totalCredit}) => {
 
   return (
     
-    <div className="w-1/4 bg-white rounded-md shadow-xl mt-8 mr-2 h-[600px]">
+    <div className="w-2/4 lg:w-1/4 bg-white rounded-md shadow-xl mt-8 mr-2 lg:h-[600px]">
 
      <h1 className='p-2 text-xl font-bold text-[#2F80ED]'>Credit Hour Remaining {remaning} hr</h1>
        <hr className="bg-white mt-4 h-5"></hr>
@@ -28,7 +28,7 @@ const Cart = ({cardSelect,remaning,totalCredit}) => {
        <hr className="mt-20"></hr>
      <h1 className='p-2 text-lg text-gray-600 font-bold'>Total Credit Hour : {totalCredit}</h1>
      <hr />
-     <h1 className='p-2 text-lg text-gray-600 font-bold'>Total Price: {} USD</h1>
+     <h1 className='p-2 text-lg text-gray-600 font-bold'>Total Price: {TotalPrice} USD</h1>
 
     </div>
   );
